@@ -32,6 +32,7 @@ This repository contains my step-by-step solutions to coding problems from [Leet
 Each solution is organized by problem number and name:  
 
 /Problem_Number-Title/
+
 ├── solution.c
 
 └── README.md (problem explanation & approach)
@@ -40,6 +41,7 @@ Each solution is organized by problem number and name:
 **Example:**  
 
 /10-RegularExpressionMatching/
+
 ├── solution.c
 
 └── README.md
