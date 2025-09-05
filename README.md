@@ -10,5 +10,7 @@ Here you’ll find my problem-solving journey, coded in **C language**, with cle
 
 ## 📂 Repository Structure
 /Easy → Solutions to easy-level problems
+
 /Medium → Solutions to medium-level problems
+
 /Hard → Solutions to hard-level problems
