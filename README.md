@@ -14,7 +14,6 @@ This repository contains my step-by-step solutions to coding problems from [Leet
 | 🔴 Hard    | 0      |  
 | **Total**  | 1      |   
 
-*(Automatically updated as I solve more problems)*  
 
 ---
 
