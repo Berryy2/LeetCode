@@ -1,16 +1,70 @@
-# 📘 LeetCode Solutions in C
+# 🚀 LeetCode Solutions in C  
 
-Welcome to my LeetCode solutions repository!  
-Here you’ll find my problem-solving journey, coded in **C language**, with clear, efficient, and well-structured solutions.  
+Welcome to my **LeetCode Solutions Repository**!  
+This repository contains my step-by-step solutions to coding problems from [LeetCode](https://leetcode.com), written primarily in **C language**.  
 
-## 🔍 About
-- 🚀 Showcases my coding style, logic, and approach to algorithms.  
-- 🧠 A resource to revise problems I’ve solved.  
-- 👀 A portfolio for recruiters and collaborators to review my work.  
+---
 
-## 📂 Repository Structure
-/Easy → Solutions to easy-level problems
+## 📊 Progress Tracker  
 
-/Medium → Solutions to medium-level problems
+| Difficulty | Solved |  
+|------------|--------|  
+| 🟢 Easy    | 0      |  
+| 🟡 Medium  | 0      |  
+| 🔴 Hard    | 0      |  
+| **Total**  | 0      |  
 
-/Hard → Solutions to hard-level problems
+*(Automatically updated as I solve more problems)*  
+
+---
+
+## 🎯 Goals  
+
+- 📘 Track my progress in problem solving and algorithm design.  
+- 🧠 Improve my skills in data structures, dynamic programming, recursion, and system-level thinking.  
+- 💡 Share code samples that demonstrate my coding style, problem-solving approach, and clean implementation practices.  
+- 🌍 Help others learn by providing clear, well-documented solutions.  
+
+---
+
+## 📂 Repository Structure  
+
+Each solution is organized by problem number and name:  
+
+/Problem_Number-Title/
+├── solution.c
+
+└── README.md (problem explanation & approach)
+
+
+**Example:**  
+
+/10-RegularExpressionMatching/
+├── solution.c
+
+└── README.md
+
+
+---
+
+## ✨ Features  
+
+- ✅ Solutions written in **C language**.  
+- ✅ Focus on **readability and clarity**.  
+- ✅ Updated automatically when I solve new problems.  
+- ✅ Great for **revision, practice, and portfolio showcase**.  
+
+---
+
+## 📫 Contact Me  
+
+If you’d like to discuss algorithms, C programming, or have any questions about my solutions, feel free to reach out:  
+
+- 📧 Email: **mohamed_berry210@hotmail.com**  
+- 💼 LinkedIn: [Your LinkedIn Profile]  
+- 🖥️ GitHub: [Your GitHub Profile]  
+
+---
+
+⭐️ If you find this repository helpful, don’t forget to **star it**!  
+
