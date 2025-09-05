@@ -62,7 +62,7 @@ Each solution is organized by problem number and name:
 If you’d like to discuss algorithms, C programming, or have any questions about my solutions, feel free to reach out:  
 
 - 📧 Email: **mohamed_berry210@hotmail.com**  
-- 💼 LinkedIn: Mohamed Elberry /*www.linkedin.com/in/mohamed-elberry-393b73292*/
+- 💼 LinkedIn: Mohamed Elberry -> www.linkedin.com/in/mohamed-elberry-393b73292
 
 ---
 
