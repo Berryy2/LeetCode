@@ -2,7 +2,8 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
  // First Answer -> the first Idea will come to new members in leetcode.
-/*int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+ // which by the way better for the memory but bad for time complexty
+/*//int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     for(int i = 0 ; i< numsSize; i++ )
     {
         for(int j = 1 ; j< numsSize ; j++ )
@@ -20,7 +21,7 @@
     *returnSize = 0;
     return NULL;
 }*/
-//solving for lineat time complexity using hashTable approach.
+//solving for linear time complexity using hashTable approach.
 //#include "uthash.h" //Library used to take the HashTable approach in C
 // making our hash table 
 typedef struct{
