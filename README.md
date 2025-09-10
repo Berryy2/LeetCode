@@ -32,7 +32,7 @@ Each solution is organized by problem number and name:
 
 /Problem_Number-Title/
 
-├── solution.c
+├── solution.c -> with code being explained in details by comments. 
 
 └── README.md (problem explanation & approach)
 
