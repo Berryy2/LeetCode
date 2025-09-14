@@ -43,6 +43,6 @@ int romanToInt(char* s) {
             i++;
         }
     }
-    // Return the final integer value.
+    // Return the final integer value required.
     return result;
 }
