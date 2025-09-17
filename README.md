@@ -10,9 +10,9 @@ This repository contains my step-by-step solutions to coding problems from [Leet
 | Difficulty | Solved |  
 |------------|--------|  
 | 🟢 Easy    | 5      |  
-| 🟡 Medium  | 8      |  
+| 🟡 Medium  | 9      |  
 | 🔴 Hard    | 0      |  
-| **Total**  | 13      |   
+| **Total**  | 14      |   
 
 
 ---
