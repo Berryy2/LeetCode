@@ -5,7 +5,7 @@
  */
 
 // Bubble sort like we did in the previous problems.
-//  
+// We Loop using double pointers (i) moves after (j) loop to ensure every elements are in order til we sort them.
 void BubbleSort(int* arr, int n)
 {
      // Variable nesscary for swaping.
@@ -32,26 +32,32 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     // Sort the input's array.
     BubbleSort(nums, numsSize);
    
-    //  Allocate memory for result storage.
+    // Allocate memory for result storage.
     // capacity = 1000 is an intila guess if its not enough we will reallocate in a bigger capacity later.
     int capacity = 1000;
     int** result = (int**)malloc(sizeof(int*) * capacity);
     *returnColumnSizes = (int*)malloc(sizeof(int) * capacity);
 
     // Loop through with 2 fixed pointers (i, j) and 2 moving pointers (L, R).
+    // (i) -> the first fixed pointer. 
     for(int i = 0; i < numsSize - 2; i++)
     {
         // skip duplicates for i
         if (i > 0 && nums[i] == nums[i-1]) continue; 
 
+        // (j) -> the second fixed pointer. 
         for(int j = i + 1; j < numsSize - 2; j++)
         {
         // skip duplicates for j
         if ((j > i + 1) && (nums[j] == nums[j-1])) continue;  
+            // Set the intial value of the 2 moving pointers 
+            // L starts from the next index of the 2 fixed pointers.
+            // R starts from the end of the array and decrement til meets L.  
             int L = j + 1;
             int R = numsSize - 1;
             while(L < R)
             {
+                // Explicit Cast to long long to prevent 32-bit integer overflow when summing 4 numbers.
                 long long sum = (long long)nums[i] + nums[j] + nums[L] + nums[R];
                 if(sum == target)
                 {
@@ -65,6 +71,8 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
                     (*returnSize)++;
 
                     // Resize if capacity exceeded.
+                    // So, we have to realloc result -> which holds the resulted array of quadruplets arrays. 
+                    //and *returnSize -> which holds the size of each array which is 4.
                     if(*returnSize >= capacity)
                     {
                         capacity *= 2;
