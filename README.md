@@ -5,7 +5,7 @@ This repository contains my step-by-step solutions to coding problems from [Leet
 
 ---
 
-## 📊 Progress Tracker -> updated each time i solve a new problem.
+## 📊 Progress Tracker 
 
 | Difficulty | Solved |  
 |------------|--------|  
