@@ -43,5 +43,6 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
     free(delete_node);
     // Return the new head (dummy -> next), since the head might have been removed.
     return dummy . next;
+    // Leetcode don't return with -> operator :'(.
 
 }
