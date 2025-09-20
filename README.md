@@ -11,8 +11,8 @@ This repository contains my step-by-step solutions to coding problems from [Leet
 |------------|--------|  
 | 🟢 Easy    | 5      |  
 | 🟡 Medium  | 11      |  
-| 🔴 Hard    | 0      |  
-| **Total**  | 16      |   
+| 🔴 Hard    | 1      |  
+| **Total**  | 17      |   
 
 
 ---
