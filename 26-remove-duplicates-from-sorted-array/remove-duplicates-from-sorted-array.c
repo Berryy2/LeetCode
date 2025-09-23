@@ -10,7 +10,7 @@ int removeDuplicates(int* nums, int numsSize)
     // Right pointer (R) will scan through the array to find new unique elements.
     int R = 1;
     
-    // Traverse the array until the right pointer reaches the end.
+    // Pass in the array until the right pointer reaches the end.
     while (R != numsSize)
     {
         // If nums[R] is equal to nums[L], it means it's a duplicate.
