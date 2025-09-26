@@ -1,7 +1,9 @@
-bool isMatch(char* s, char* p) {
+bool isMatch(char* s, char* p) 
+{
+// make 2 variables storing the length of the 2 strings.
 int m = strlen(s) + 1;
 int n = strlen(p) + 1;   
-
+// Start by making all the 2D array = false;
 bool Dp[m][n];
 for (int i = 0; i < m ; i++)
 {
