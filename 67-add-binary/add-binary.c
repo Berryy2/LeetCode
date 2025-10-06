@@ -1,8 +1,9 @@
-// In our approach we will use a carry variable to execute our addition, knowing that:
+// In our approach, we will use a carry variable to handle bit-wise addition, knowing that:
 // a) 2 % 2 is 0 and then the carry / 2 = 1 is like 1 + 1 = 0 and carry 1.
 // b) 1 % 2 is 1 and then the carry / 2 = 0 is like 1 + 0 = 1 and carry 0.
 // c) 0 % 2 is 0 and then the carry / 2 = 0 is like 0 + 0 = 0 and carry 0.
-// Thats the concept of the problem and the rest is easy.  
+// Lastly, we will return string + remaining size to skip any undefined (garbage) value.
+// With this logic, we can process both strings from right to left and build the result. 
 char* addBinary(char* a, char* b)
 {
     // We will get the lengths of both binary strings.
