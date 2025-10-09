@@ -1,4 +1,4 @@
-# 🚀 LeetCode Solutions in C  
+# 🚀 LeetCode Solutions in C & some in PYTHON
 
 Welcome to my **LeetCode Solutions Repository**!  
 This repository contains my step-by-step solutions to coding problems from [LeetCode](https://leetcode.com), written primarily in **C language**.  
