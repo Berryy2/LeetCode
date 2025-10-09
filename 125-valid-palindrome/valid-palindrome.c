@@ -44,3 +44,5 @@ bool isPalindrome(char* s)
     // Completing the loop means the string is a palindrome.
     return true;
 }
+
+// Thats Time complexity: O(n) & Space complexity: O(1).
