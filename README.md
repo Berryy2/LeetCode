@@ -50,7 +50,7 @@ Each solution is organized by problem number and name:
 
 ## ✨ Features  
 
-- ✅ Solutions written in **C language**.  
+- ✅ Solutions written in **C language** and some problem solved in both **C & PYTHON**.
 - ✅ Focus on **readability and clarity**.  
 - ✅ Updated automatically when I solve new problems.  
 - ✅ Great for **revision, practice, and portfolio showcase**.  
