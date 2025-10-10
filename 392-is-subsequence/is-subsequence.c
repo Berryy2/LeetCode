@@ -1,15 +1,17 @@
 bool isSubsequence(char* s, char* t) 
 {
-    if(strlen(s) == 0) return true;
+    int Len_s = strlen(s);
+    int Len_t = strlen(t);
+    if( Len_s == 0) return true;
     int ptr_s = 0;
     int ptr_t = 0;
-    while(ptr_t < strlen(t))
+    while(ptr_t < Len_t)
     {
         if(s[ptr_s ] == t[ptr_t])
         {
             ptr_s++;
         }
-        if(ptr_s == strlen(s))
+        if(ptr_s == Len_s)
         {
             return true;
         }
