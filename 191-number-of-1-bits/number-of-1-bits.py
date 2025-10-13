@@ -17,5 +17,5 @@ class Solution(object):
                 counter += 1
             # Shift (n) to the right.
             n >>= 1
-        # At the end return counetr.
+        # At the end return counter.
         return counter
