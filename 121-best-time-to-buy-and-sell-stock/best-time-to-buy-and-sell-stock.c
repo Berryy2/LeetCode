@@ -1,18 +1,18 @@
-int maxProfit(int* prices, int pricesSize) {
-    int max = 0;
-    int L = 0;
-    //Using Sliding Window Pattern
-    for(int R = 1; R < pricesSize; R++)
+int maxProfit(int* prices, int pricesSize) 
+{
+    int profit = 0;
+    int min = INT_MAX;
+    for (int i = 0; i < pricesSize; i++)
     {
-        int profit = prices[R] - prices[L];
-        if(profit > max)
+        if(prices[i] < min)
         {
-            max = profit;
+            min = prices[i];
         }
-        if (profit < 0)
+
+        if(prices[i] - min > profit)
         {
-            L = R;
+            profit = prices[i] - min;
         }
     }
-    return max;
+    return profit;
 }
